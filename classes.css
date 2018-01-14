@@ -9,7 +9,16 @@ there are definitely some properties you should add!*/
        width: 800px;
        height: 100%;
     }
-
+    a:hover[href="index.html"] { /*select only the link with the exact href value https://www.css-tricks.com */
+      color: red;
+      background-color: black;
+      text-decoration: underline;
+    }
+    a:hover[href="classes.html"] { /*select only the link with the exact href value https://www.css-tricks.com */
+      color: red;
+      background-color: black;
+      text-decoration: underline;
+    }
     header {
         background-color: #edcba0;
         padding: 10px;
@@ -65,9 +74,6 @@ td {
   border: solid 1px;
   text-align: center;
 }
-    a {
-        color: ;
-    }
     section {
         width: 100%;
         display: inline-block;
